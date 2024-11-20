@@ -1,0 +1,91 @@
+/* External CSS starts */
+      
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .imageSlide {
+        width: 200px;
+        height: 200px;
+      }
+
+      .column {
+        float: left;
+        width: 33.33%;
+        /* padding: 10px; */
+      }
+      
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:#a42744;
+        color: white;
+        text-align: center;
+      }
+
+      .activeSlide {
+        background-color: #a42744;
+      }
+      
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 3s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 600px) {
+        body {
+          font-size: 10px;
+        }
+          
+      }
+
+        .menuColor:hover {
+          background-color: white;
+          -webkit-text-fill-color: black;
+          
+        }
+        .menuColor:visited {
+          color: azure ;
+        }
+        #navbarSupportedContent {
+          padding-left: 153px;
+          padding-right: 183px;
+        }
+        
+        .nav-item {
+          padding-left: 30px;
+        }
+
+        #addLogin {
+          /* padding-left: 500px;
+          padding-top: 40px; */
+      }
+
+      table {
+        /* font-family: arial, sans-serif; */
+        border-collapse: collapse;
+        width: 100%;
+        border: #a42744 1px;
+        margin-top:10px; 
+        margin-bottom:200px
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 10px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
+      /* External CSS ends */
